@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brukshundsklubb</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="startsida">
+      <!-- Header -->
+
+      <h1>Välkommen till Brukshundsklubb</h1>
+      <!-- login box -->
+
+      <div class="container-login" id="login-box">
+        <input
+          type="text"
+          class="input-field"
+          id="userName"
+          placeholder=" Användarnamn"
+        />
+
+        <input
+          type="text"
+          class="input-field"
+          id="password"
+          placeholder=" Lösenord"
+        />
+
+        <button class="input-field" id="logInBtn">Logga in</button>
+        <br />
+        <hr />
+        <h3>Förhållningsregler</h3>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, nemo.
+          Nostrum sunt eveniet dolores eligendi corporis iusto ipsum omnis
+          libero? Repudiandae, perferendis. Laborum, repellat consectetur
+          suscipit autem veniam quam cupiditate deleniti minus quos iure
+          eligendi temporibus, incidunt iusto tempora quasi inventore delectus
+          ratione necessitatibus eveniet obcaecati illum? Blanditiis, rerum
+          porro?
+        </p>
+      </div>
+
+      <!--  välkommen box  -->
+
+      <div class="container-welcome hide" id="welcome-box">
+        <!-- <h2 class="welcome-text">Välkommen, du är nu inloggad!</h2> -->
+        <br />
+        <button class="input-field" id="logOutBtn">Logga ut</button>
+      </div>
+
+      <!-- fel lösenord box -->
+
+      <div class="container-error hide" id="error-box">
+        <!-- <h2 class="error-text">Fel Användarnamn eller Lösenord!</h2> -->
+        <br />
+        <button class="input-field" id="tryAgainBtn">Försök igen!</button>
+      </div>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
